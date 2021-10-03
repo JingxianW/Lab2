@@ -15,20 +15,18 @@
 
         <img src="dogs.jpg" alt="Dogs Image">
 
-        <p>
-            <h2>
-                Topic: This is a family meeting and we are going to discuss which kind of dogs we want to adopt.
-            </h2>
-            <h4>
-                Date: September 26, 2021
-            </h4>
-        </p>
+        <h2>
+            Topic: This is a family meeting and we are going to discuss which kind of dogs we want to adopt.
+        </h2>
+        <h4>
+            Date: September 26, 2021
+        </h4>
 
         <nav>
-            <a href="#Attendee Names">Attendee Names</a> |
+            <a href="#AttendeeNames">Attendee Names</a> |
             <a href="#Agenda">Agenda</a> |
-            <a href="#Unfinished Business">Unfinished Business</a> |
-            <a href="#New Business">New Business</a> |
+            <a href="#UnfinishedBusiness">Unfinished Business</a> |
+            <a href="#NewBusiness">New Business</a> |
             <a href="#Video">Video</a> |
             <a href="#Audio">Audio</a> |
             <a href="#Comments/Questions/Concerns">Comments/Questions/Concerns</a>
@@ -39,7 +37,7 @@
     <hr>
 
     <main>
-        <section id="Attendee Names">
+        <section id="AttendeeNames">
             <h3>Attendee Names</h3>
             <ol>
                 <li>Jasmine</li>
@@ -56,19 +54,11 @@
             <div>
                 <input type="checkbox" id="thing1" name="thing1" value="first">
                 <label for="thing1"> what <b>kind of dog</b> to adopt? </label>
-                <details>
                     <ul>
                         <li>Labrador</li>
-                        <img src="Labrador.jpg" alt="Dogs Image">
-
                         <li>Golden Retriever</li>
-                        <img src="GoldenRetriever.jpg" alt="Dogs Image">
-
                         <li>Chihuahua</li>
-                        <img src="Chihuahua.jpg" alt="Dogs Image">
-
                     </ul>
-                </details>
             </div>
             <br>
             <div>
@@ -83,19 +73,19 @@
             <br>
         </section>
         
-        <section id="Unfinished Business">
+        <section id="UnfinishedBusiness">
             <h3>Unfinished Business</h3>
-            <label for="file">what <strong>kind of dog</strong> to adopt:</label>
-            <progress id="file" value="10" max="100"> 32% </progress>
+            <label for="file1">what <strong>kind of dog</strong> to adopt:</label>
+            <progress id="file1" value="10" max="100"> 32% </progress>
             <br>
-            <label for="file">who will <strong>take care</strong> of the dog:</label>
-            <progress id="file" value="85" max="100"> 32% </progress>
+            <label for="file2">who will <strong>take care</strong> of the dog:</label>
+            <progress id="file2" value="85" max="100"> 32% </progress>
             <br>
-            <label for="file"><span><strong>male</strong></span> or <span><strong>female</strong></span>:</label>
-            <progress id="file" value="50" max="100"> 32% </progress>
+            <label for="file3"><span><strong>male</strong></span> or <span><strong>female</strong></span>:</label>
+            <progress id="file3" value="50" max="100"> 32% </progress>
         </section>
         
-        <section id="New Business">
+        <section id="NewBusiness">
             <h3>New Business</h3>
             <p><i>We do not have new business to discuss. We need to finish the remaining problems.</i></p>
         </section>
@@ -150,22 +140,18 @@
                     <option value="Ruger">
                     <option value="Bruce">
                     <option value="Lucky">
-                    <option value="Opera">
-                    <option value="Safari">
+                    <option value="Max">
+                    <option value="Milo">
                     </datalist>
                 </div>
                 <br>
                 <div>
-                    <label>Gender and Birthday</label>
+                    <label>Gender</label>
                     <select name="gender">
                         <option value="female">Female</option>
                         <option value="male">Male</option>
                 </div>
-                <br>
-                <div>
-                    <label>Birthday</label>
-                    <input type="date" name="birthday">
-                </div>
+
                 <br>
                 <input type="submit" name="submit" value="Submit">
             </form>
